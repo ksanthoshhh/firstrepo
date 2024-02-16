@@ -1,0 +1,21 @@
+#one,#two,#three,#four,#five{
+    border: solid black;
+    width: 100px;
+    padding: 20px;
+}
+#two{
+    margin-left: 146px;
+    margin-top: -64px;
+}
+#three{
+    margin-left: 292px;
+    margin-top: -63px;
+}
+#four{
+    margin-left: 438px;
+    margin-top: -63px;
+}
+#five{
+    margin-left: 585px;
+    margin-top: -63px;
+}

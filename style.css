@@ -1,0 +1,18 @@
+p{
+    color: aqua;
+    background-color: rgb(12, 8, 13);
+}
+
+h1{
+    color: rgb(235, 109, 5);
+    background-color: rgb(9, 244, 244);
+}
+#name{
+    color: rgba(51, 11, 247, 0.375);
+    background-color: violet;
+}
+div{
+    border-style: groove;
+    border-color: brown;
+    border-radius: 10px;
+}

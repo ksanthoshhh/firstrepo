@@ -1,0 +1,64 @@
+div{
+    border: solid red;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: relative;
+    animation: move 2s infinite ease-in-out;
+
+}
+@keyframes move{
+    0%{ 
+        margin-left: 0px;
+        background-color: red;
+        border-color: red;
+
+
+    }
+
+    50%{
+        margin-left: 50px;
+        background-color: palevioletred;
+        border-color: palevioletred;
+
+    }
+    100%{
+        margin-left: 100px;
+        border-color: black;
+        background-color: black;
+    }
+
+}
+.class{
+    border-color: aqua;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    animation: source 2s infinite ease-in-out;
+    #ease in out for smooth transition
+
+}
+
+@keyframes source{
+    0%{ 
+        margin-top: 0px;
+        background-color: aqua;
+        border-color: aqua;
+
+
+    }
+
+    50%{
+        margin-top: 100px;
+        background-color: skyblue;
+        border-color: skyblue;
+
+    }
+    100%{
+        margin-top: 200px;
+        border-color: beige;
+        background-color: beige;
+    }
+
+
+}

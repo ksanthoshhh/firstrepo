@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Anta", sans-serif;
+    font-style: normal;
+    cursor: pointer;
+
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( #3f5efb,#fc466b)
+}
+h1{
+    text-align: center;
+    color: azure;
+    margin-top: 3px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px black;
+    opacity: .8;
+}
+form{
+    height: 28rem;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255, 0.09);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,.38);
+    border-radius: 25px;
+}
+label{
+    margin-left: 8%;
+    font-size: 20px;
+    color: azure;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255, 0.09);
+
+}
+input{
+    padding: 10px;
+    width: 80%;
+    margin: 5% auto;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid;
+    border-color: azure;
+
+}
+button{
+    font-family: "Anta", sans-serif;
+    font-size: 15px;
+    width: 50%;
+    margin: 5% auto;
+    padding: 10px;
+    border-radius: 10px;
+    color: azure;
+    background: transparent;
+    outline: none;
+
+}
+a{
+    text-align: center;
+    font-family: "Anta", sans-serif;
+    font-size: 15px;
+    color: azure;
+}
+button:hover{
+    opacity: 0.6;
+    transition: 1.5s;
+}
+a:hover{
+    opacity: 0.6;
+    transition: 1.5s;
+
+}

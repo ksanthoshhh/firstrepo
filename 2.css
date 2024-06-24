@@ -72,12 +72,12 @@ li:hover{
 
 }
 #container1:hover{
-    background-color: rgb(116, 203, 203);
+    background-color: rgb(255, 255, 255);
     color: black;
     transition: 1.2s;
 }
 .para:hover{
-    zoom: 2;
+    transform:scale(2)
     cursor:auto;
     transition: .02s;
 }

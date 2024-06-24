@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #ff0000;
+    padding: 10px 0;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff; 
+}
+
+.logo img {
+    width: 70px; /* Adjust based on your logo size */
+    margin-left: 20px;
+    border-radius: 50%;
+}
+.navbar{
+    position: sticky;
+}
+nav ul {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+input{
+    text-align: center;
+    width: 800px;
+    margin: 20px;
+    margin-right: 80px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+
+nav ul li a:hover {
+    color: #cccccc; 
+}
+
+.one{
+    padding-top: 50px;
+    text-align: center;
+
+}
+.hero {
+    background-image: url(hero.jpg); 
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+h2{
+    padding-top: 100px;
+    display: inline;
+    justify-content: center;
+}
+.but{
+    display: inline-block;
+    background-color: #ffcc00;
+    color: #ffffff;
+    font-size: 10px;
+    border-style: none;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.but:hover {
+    background-color: #ffa500; 
+    animation:infinite spin 22s linear ;
+   
+
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.menu {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.menu h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.menu-item {
+    width: 250px;
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    animation: spin 2s linear infinite;
+    z-index:1;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.menu-item .price{
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff0000; 
+}
+
+footer {
+    background-color: #333333; 
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    position:bottom;
+    bottom: 0;
+    width: 100%;
+}
